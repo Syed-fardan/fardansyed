@@ -1,4 +1,5 @@
-import { v4 as uuid } from "uuid"
+const { v4: uuid } = require("uuid")
+
 const quizzes = {
     data: [
         // 1st Quiz Card --> will have title, category, description, quiz,
@@ -108,4 +109,5 @@ const quizzes = {
 
     ]
 }
-export default quizzes;
+
+module.exports = quizzes;
